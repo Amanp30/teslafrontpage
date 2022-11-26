@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+*{
+   font-family: 'Manrope', sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+/* Top Bar */
+.topbar {
+    position: relative;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 8% 78% 14%;
+    height: 6%;
+    align-items: center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.middle {
+    text-align: center;
+}
+
+.right {
+    text-align: end;
+}
+
+.middle a, .right a {
+    text-decoration: none;
+    margin: 0 1em;
+    color: black;
+    font-weight: 600;
+}
+.right a:last-child, .middle a:last-child {
+    margin: 0;
+}
+/* Top Bar end here */
+
+.mainpage {
+   max-width: 100vw;
+    height: 100vh;
+}
+
+.mainpage.component {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2text{
+    font-size: 2.6em;
+    margin: 0;
+}
+.ptext{
+    color: #88898D;
+}
+
+.buttonprimary, .btnsecondary{
+    min-width: 20em;
+    min-height: 3em;
+   /*  padding: .8em; */
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttonprimary {
+    color: white;
+    background: #3A3D42;
+}
+
+.btnsecondary {
+    margin-left: 2em;
+    background: rgba(244, 244, 244, 0.65);
+    color: #3A3E42;
+}
+
+.selectbutton {
+    transform: translateY(+4em);
+}
+
+.topup {
+    text-align: center;
+    transform: translateY(-2em);
+    margin-bottom: 4em;
+}
